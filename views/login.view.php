@@ -16,6 +16,9 @@
 		<pre>Password: <input type="password" name="password" placeholder="Password..." required></pre>
 		<button type="submit">Submit</button>
 	</form>
-
+	
+	<form action="/" style="text-align: center;">
+		<button>Go Back</button>
+	</form>
 </body>
 </html>
