@@ -31,8 +31,6 @@ class Router
 		{
 			return $this->routes[$requestType][$uri];
 		}
-
 		throw new Exception('No route defined for this URI.');
-		
 	}
 }

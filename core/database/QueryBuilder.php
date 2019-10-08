@@ -1,6 +1,5 @@
 <?php
 
-
 class QueryBuilder
 {
 	protected $pdo;
@@ -30,7 +29,7 @@ class QueryBuilder
 		try{
 			$statement = $this->pdo->prepare($sql);
 			$statement->execute($parameters);
-		} catch (Exception $e){
+		}catch (Exception $e){
 			die('Something went wrong..');
 		}
 	}
@@ -54,13 +53,11 @@ class QueryBuilder
 					die('Something went wrong..');
 				}
 			}
-			if(empty($row)) {
+			else if(empty($row)) {
 				return false;
 			}
-			
 		}catch (Exception $e){
 			die('Something went wrong..');
 		}
-		
 	}
 }

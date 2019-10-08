@@ -20,5 +20,6 @@
 	<form action="/" style="text-align: center;">
 		<button>Go Back</button>
 	</form>
+	<a href="/register">Don't have account? Register here.</a>
 </body>
 </html>
